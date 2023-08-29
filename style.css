@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins&family=Roboto+Mono:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #003566;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #006d77;
+  border-radius: 10px;
+  border: 1px solid skyblue;
+  box-shadow: 0 0 10px skyblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h1 {
+  padding: 30px 20px;
+  color: aliceblue;
+}
+span {
+  color: rgb(82, 249, 194);
+  border: 3px solid wheat;
+  border-width: 0px 0px 3px 0px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 2px -2px skyblue;
+}
+.passwordBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+.passwordBox input {
+  border: none;
+  height: 80px;
+  width: 100%;
+  background-color: #003566;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px skyblue;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+input::placeholder {
+  color: aliceblue;
+  opacity: 1;
+}
+
+.passwordBox img {
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  position: absolute;
+  top: 42%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+}
+
+#btn {
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #003566;
+  color: aliceblue;
+  border: none;
+  box-shadow: 0 0 5px skyblue;
+  margin-left: 20px;
+  text-align: center;
+}
+#lightning {
+  height: 40px;
+  margin-bottom: -2%;
+  background-color: transparent;
+}
